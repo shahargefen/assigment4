@@ -2,6 +2,7 @@ public class Child {
     private Guardian guardian;
     private double height;
     private double weight;
+    private double age;
 
     public Guardian getGuardian() {
         return guardian;
@@ -25,5 +26,13 @@ public class Child {
 
     public void setWeight(double weight) {
         this.weight = weight;
+    }
+
+    public double getAge() {
+        return age;
+    }
+
+    public void setAge(double age) {
+        this.age = age;
     }
 }

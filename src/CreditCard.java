@@ -1,6 +1,15 @@
 public class CreditCard {
     private CreditCompany creditCompany;
     private String creditNumber;
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public CreditCompany getCreditCompany() {
         return creditCompany;
